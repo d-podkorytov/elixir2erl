@@ -1,23 +1,23 @@
-Elixir to Erlang decompiler
+# Elixir to Erlang decompiler
 
-DESCRIPTION
+## About
 
 Elixir *.beam files -> Erlang sources decompiler
 
 elixir2erl.zip is an archive with decompiled Exlixir *.beams for Elixir sources and libs files and elixir2erl decompiler sources.
 
-USING
+## Using it for decompilation Elixir's *.beam files
 
 Run erl with -pa 'Path_to_elixir_core' with files elexir_*.beam
 
-Calls examples
+## Calls examples
 
 1>elixir2erl:dir("Dir").
 2>elixir2erl:file("elixir_some.beam").
 
-See decompiled *.erld files in directory Dir
+## See decompiled *.erld files in directory Dir
 
-TEST
+## Test
 
 $erl -pa ./ex_beams
 
